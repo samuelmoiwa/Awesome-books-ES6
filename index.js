@@ -102,7 +102,6 @@ navList.addEventListener('click', () => {
   bookListDivContainer.classList.add('display-section');
   addNewSection.classList.remove('display-section');
   contactSection.classList.remove('display-section');
-  console.log('test');
 });
 
 navAddNew.addEventListener('click', () => {
