@@ -82,7 +82,6 @@ submit.onclick = () => {
 booksDiv.addEventListener('click', (e) => {
   if (e.target.classList.contains('del')) {
     e.target.parentElement.remove();
-
     AddingBooks.deletTaskWith(JSON.parse(e.target.parentElement.getAttribute('data-id')));
   }
 });
