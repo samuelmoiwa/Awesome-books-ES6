@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <title>Awesome Book</title>
+  </head>
+
+  <body>
+
+    <header class="header">
+      <a href="./index.html" id="logo">Awesome Books</a>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav>
+        <ul id="nav-links">
+          <li id="nav-list">List</li>
+          <li id="nav-add-new">Add new</li>
+          <li id="nav-contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="m-3">
+      <p id="current-date"></p>
+    </div>
+
+    <div class="container">
+      <h1 class="awesome-text">
+        Awesome
+        <span class="book-text"> Book</span>
+      </h1>
+
+      <!-- ============ Book List section ================ -->
+      <div class="books-list-main-div">
+        <div class="books-list">
+          <div class="books form-control mt-5"></div>
+        </div>
+      </div>
+      <!-- =========== Input Section For Book title and Author ============= -->
+      <form class="form add-new-book">
+
+        <div class="add_book_input_div"> 
+          <input type="text" id="title" class="book-input" placeholder="Title"/>
+    
+          <input type="text" id="author" class="author-input" placeholder="Author"/>
+          <div class="add_btn_div"> 
+            <input type="submit" value="Add Book" class="add" />
+          </div>
+        </div>
+
+      </form>
+
+      <!-- ================== Contact Section ================= -->
+
+      <div class=" contact-info">
+        <h2>Contact Information</h2>
+        <p>
+          Thank you for interacting with our Awesome Book App. <br />
+          You can reach out to us via:
+        </p>
+        <ul>
+          <li>Our <a class="social_links" href="https://www.github.com/samuelmoiwa" target="_blank" rel="noopener">Github handle</a></li>
+          <li>A tweet on <a class="social_links" href="https://www.twitter.com/samuelmoiwa" target="_blank" rel="noopener">Twitter</a></li>
+          <li>Connect on <a class="social_links" href="https://www.linkedin.com/in/ing-abdulai-samuel-moiwa-726340142/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <p>© All rights reserved 2022.</p>
+    </footer>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
